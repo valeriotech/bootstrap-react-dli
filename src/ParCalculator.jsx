@@ -19,10 +19,10 @@ export default function ParCalculator() {
     }
 
     return (<>
-        <Col className={'mt-5'} xs={12} md={6}>
+        <Col className={'mt-2'} xs={12} md={6}>
             <TextField id="light-hours-input" label="Light Hours" variant="standard" value={hours} onChange={handleHours}/>
         </Col>
-        <Col className={'mt-5'} xs={12} md={6}>
+        <Col className={'mt-2'} xs={12} md={6}>
             <TextField id="par-input" label="Measured PAR" variant="standard" value={par} onChange={handlePar}/>
         </Col>
         {hours !== '' && par !== '' ? <ParResults par={par} hours={hours} /> : null}

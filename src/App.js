@@ -21,7 +21,7 @@ function App() {
             <Row className={'mb-5 mt-5'}>
                 <PlantSelector />
             </Row>
-            <Row className={'align-items-center mb-5'}>
+            <Row className={''}>
                 <TabbedPaper/>
             </Row>
         </Container>

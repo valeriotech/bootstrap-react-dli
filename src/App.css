@@ -2,7 +2,8 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  height: 100vh;
+  height: auto;
+  padding: 5px 5px 100px 5px;
 }
 
 p {
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6, a {
   font-family: 'Lobster', cursive;
   font-weight: bold;
   color: #3AB4F2;
+  margin: unset;
 }
 
 .bi {
