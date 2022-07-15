@@ -1,8 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import {Nav, Navbar} from "react-bootstrap";
-import YardIcon from '@mui/icons-material/Yard';
-
+import logo from '../img/logo.svg'
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
@@ -16,7 +15,7 @@ export default function NavBar() {
             <Container fluid={true}>
                 <Navbar.Brand href={'#'} style={{color: '#F2DF3A'}}>
                     <div className={'d-flex align-items-center'}>
-                        <YardIcon/>{'  '}What DLI?
+                        <img src={logo} alt={'Logo'} width={'35'} height={'auto'}/>What DLI?
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls={'main-navbar'} style={{color: '#F2DF3A'}}></Navbar.Toggle>

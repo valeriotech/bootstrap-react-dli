@@ -1,7 +1,7 @@
-import babyStroller from './img/icons8-baby-stroller-50.png'
-import Vegetative from './img/icons8-basil-50.png'
-import Flowering from './img/icons8-flowers-50.png'
-import Maturing from './img/icons8-old-woman-50.png'
+import Seedling from '../img/seedling.svg'
+import Vegetative from '../img/vegetative.svg'
+import Flowering from '../img/flowering.svg'
+import Maturing from '../img/flabbynsick.png'
 
 export const DLI = {
     weed: {
@@ -29,7 +29,7 @@ export const DLI = {
     stages: {
         seedling: {
             title: 'Seedling',
-            img: babyStroller,
+            img: Seedling,
             content: 'Seedling stage begins when the seed coat splits open and exposes the root and cotyledons. It lasts from 1 to 4 weeks, and is the period of greatest vulnerability in the life cycle of the plant, requiring moderate humidity levels, medium to high light intensity, and adequate but not excessive soil moisture.'
         },
         vegetative: {
