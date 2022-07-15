@@ -27,8 +27,7 @@ export default function DliCalculator() {
                         inputFormat="MM/dd/yyyy"
                         value={value}
                         onChange={handleChange}
-                        renderInput={(params) => <TextField {...params} />}
-                        sx={{textAlign: 'center'}}
+                        renderInput={(params) => <TextField  {...params}/>}
                     />
                 </LocalizationProvider>
             </Col>

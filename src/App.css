@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, a {
  color: #F2DF3A;
 }
 
+input {
+  text-align: center;
+}
+
 .tab-links {
   color: #0078AA;
   font-family: 'Lobster', cursive;

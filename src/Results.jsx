@@ -7,11 +7,14 @@ export default function Results(props) {
 
 
     const weeks = HowManyWeeks(props.date)
-    const dli = DLI.weed.photoPeriod[weeks]
+    const days = Math.floor(weeks*7)
+    const dli = DLI.weed.photoPeriod[Math.ceil(weeks)]
     const stage = DLI.getStage(weeks)
 
     return (<>
             <Col className={'mt-5'} xs={12}>
+                <h2>Plant Age:{' '}</h2><p>{days} {days > 1 ? 'days' : 'day'}</p>
+                <br/>
                 <h1>Suggested DLI</h1>
                 <p>Your DLI should be adjusted to {dli} by the end of the week</p>
             </Col>
