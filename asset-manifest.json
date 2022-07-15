@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bootstrap-react-dli/static/css/main.8b26d552.css",
-    "main.js": "/bootstrap-react-dli/static/js/main.f8c7bc7d.js",
+    "main.js": "/bootstrap-react-dli/static/js/main.365db998.js",
     "static/js/787.b5393eb7.chunk.js": "/bootstrap-react-dli/static/js/787.b5393eb7.chunk.js",
     "static/media/bootstrap-icons.woff?": "/bootstrap-react-dli/static/media/bootstrap-icons.c15abee23f0098f0490f.woff",
     "static/media/bootstrap-icons.woff2?": "/bootstrap-react-dli/static/media/bootstrap-icons.3518ff4dccdeac177ccf.woff2",
     "index.html": "/bootstrap-react-dli/index.html",
     "main.8b26d552.css.map": "/bootstrap-react-dli/static/css/main.8b26d552.css.map",
-    "main.f8c7bc7d.js.map": "/bootstrap-react-dli/static/js/main.f8c7bc7d.js.map",
+    "main.365db998.js.map": "/bootstrap-react-dli/static/js/main.365db998.js.map",
     "787.b5393eb7.chunk.js.map": "/bootstrap-react-dli/static/js/787.b5393eb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b26d552.css",
-    "static/js/main.f8c7bc7d.js"
+    "static/js/main.365db998.js"
   ]
 }
