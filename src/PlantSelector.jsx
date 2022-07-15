@@ -4,7 +4,7 @@ import {Col} from "react-bootstrap";
 
 export default function PlantSelector() {
 
-    const [type, setType] = useState(0)
+    const [type, setType] = useState('')
 
     function handleChange(event) {
         const {value} = event.target
@@ -22,7 +22,6 @@ export default function PlantSelector() {
                     label="Plant Type"
                     onChange={handleChange}
                     sx={{width: '225px'}}
-                    margin={'normal'}
                     color={'primary'}
                     variant={'standard'}
                 >
