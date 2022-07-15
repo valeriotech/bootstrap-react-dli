@@ -15,7 +15,7 @@ export default function Results(props) {
             <Col className={'mt-5'} xs={12}>
                 <h2>Plant Age:{' '}</h2><p>{days} {days > 1 ? 'days' : 'day'}</p>
                 <br/>
-                <h1>Suggested DLI</h1>
+                <h1>Suggested DLI: {dli}</h1>
                 <p>Your DLI should be adjusted to {dli} by the end of the week</p>
             </Col>
             <Col className={'mt-5'} xs={12} md={6}>

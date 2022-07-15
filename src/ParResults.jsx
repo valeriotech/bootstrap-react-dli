@@ -10,7 +10,7 @@ export default function ParResults(props) {
     }
 
     return (
-        <><Col className={'mt-5'}>
+        <><Col className={'mb-5'}>
                 <h1>Calculated DLI</h1>
                 <strong>{getDLI(() => {})}</strong>
             </Col>
