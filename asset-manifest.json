@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/bootstrap-react-dli/static/css/main.08870393.css",
-    "main.js": "/bootstrap-react-dli/static/js/main.d34caf1e.js",
+    "main.js": "/bootstrap-react-dli/static/js/main.2d2bb90f.js",
     "static/js/787.b5393eb7.chunk.js": "/bootstrap-react-dli/static/js/787.b5393eb7.chunk.js",
     "static/media/bootstrap-icons.woff?": "/bootstrap-react-dli/static/media/bootstrap-icons.c15abee23f0098f0490f.woff",
     "static/media/bootstrap-icons.woff2?": "/bootstrap-react-dli/static/media/bootstrap-icons.3518ff4dccdeac177ccf.woff2",
+    "static/media/logo.svg": "/bootstrap-react-dli/static/media/logo.7d4dd0391e001bb3a36594e6677c197e.svg",
+    "static/media/flowering.svg": "/bootstrap-react-dli/static/media/flowering.e3399e4eed803785c1f063be8745ea0b.svg",
+    "static/media/vegetative.svg": "/bootstrap-react-dli/static/media/vegetative.2b2b80354650196eb205f99a072071ea.svg",
+    "static/media/seedling.svg": "/bootstrap-react-dli/static/media/seedling.8dbc94c7532cdc4bcc250796e268ae1f.svg",
     "index.html": "/bootstrap-react-dli/index.html",
     "main.08870393.css.map": "/bootstrap-react-dli/static/css/main.08870393.css.map",
-    "main.d34caf1e.js.map": "/bootstrap-react-dli/static/js/main.d34caf1e.js.map",
+    "main.2d2bb90f.js.map": "/bootstrap-react-dli/static/js/main.2d2bb90f.js.map",
     "787.b5393eb7.chunk.js.map": "/bootstrap-react-dli/static/js/787.b5393eb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08870393.css",
-    "static/js/main.d34caf1e.js"
+    "static/js/main.2d2bb90f.js"
   ]
 }
