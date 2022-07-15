@@ -18,7 +18,7 @@ export default function FillExample() {
                 style={{color: '#F2DF3A'}}
             >
                 <Tab eventKey="home" title="DLI Checker" tabClassName={'tab-links'}>
-                    <Row><DliCalculator /></Row>
+                    <Row className={'justify-content-center'}><DliCalculator /></Row>
                 </Tab>
                 <Tab eventKey="profile" title="Par Calculator" tabClassName={'tab-links'}>
                 </Tab>

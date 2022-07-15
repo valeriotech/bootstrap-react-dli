@@ -20,7 +20,7 @@ export default function DliCalculator() {
 
     return (
         <>
-            <Col xs={12} className={'mb-5'}>
+            <Col xs={12} md={6} className={'mt-5'}>
                 <LocalizationProvider dateAdapter={AdapterDateFns}>
                     <MobileDatePicker
                         label="Choose A Sprout Date"
