@@ -1,15 +1,16 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import NavBar from "./components/NavBar";
 import Defs from "./components/Defs";
-import './App.css';
 import TabbedPaper from './components/TabbedPaper'
 import PlantSelector from "./components/PlantSelector";
 
 
 function App() {
+
     return (
         <Container className={'App'} fluid={true}>
             <Row className={'sticky-top'}>
@@ -21,7 +22,7 @@ function App() {
             <Row className={'mb-5 mt-5'}>
                 <PlantSelector />
             </Row>
-            <Row className={''}>
+            <Row>
                 <TabbedPaper/>
             </Row>
         </Container>
