@@ -8,7 +8,6 @@ import Defs from "./components/Defs";
 import TabbedPaper from './components/TabbedPaper'
 import PlantSelector from "./components/PlantSelector";
 
-
 function App() {
 
     return (
@@ -28,5 +27,4 @@ function App() {
         </Container>
     );
 }
-
 export default App;
