@@ -1,28 +1,29 @@
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import DliCalculator from "./DliCalculator";
 import {Col} from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import ParCalculator from "./ParCalculator";
-import getText from '../getDefs'
 
-
-export default function FillExample() {
+const FillExample = (props) => {
 
     const [value, setValue] = useState('home')
 
     function handleSelect(event) {
-        setValue(event)
+        const tab = event
+        setValue(tab)
+
     }
 
-
     useEffect(() => {
-        document.querySelector('#description-content').textContent = getText(value)
+        props.getKey(() => {
+            return value
+        })
     })
 
     return (
-        <Col xs={12}>
+        <Col xs={12} md={8}>
             <Tabs
                 defaultActiveKey="home"
                 activeKey={value}
@@ -45,5 +46,6 @@ export default function FillExample() {
                 </Tab>
             </Tabs>
         </Col>
-    );
-}
+    )};
+
+export default FillExample

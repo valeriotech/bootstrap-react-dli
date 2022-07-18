@@ -1,15 +1,21 @@
 import React from 'react'
 import {Col} from "react-bootstrap";
 import HowManyWeeks from "../HowManyWeeks";
-import {DLI} from "./DLI";
+import {PlantDatabase} from "../PlantDatabase";
 
 export default function Results(props) {
-
-
+    const type = document.querySelector('#demo-simple-select').textContent
     const weeks = HowManyWeeks(props.date)
     const days = Math.floor(weeks*7)
-    const dli = DLI.weed.photoPeriod[Math.ceil(weeks)]
-    const stage = DLI.getStage(weeks)
+    let dli;
+
+    if (type === 'Cannabis.PhotoPeriod') {
+        dli = PlantDatabase.Cannabis.dli['photoPeriod'][Math.ceil(weeks)]
+    } else {
+        dli = PlantDatabase.Cannabis.dli['autoFlower'][Math.ceil(weeks)]
+    }
+
+    const stage = PlantDatabase.getStage(weeks)
 
     return (<>
             <Col className={'mt-5'} xs={12}>
@@ -20,7 +26,7 @@ export default function Results(props) {
                 <p>Your DLI should be adjusted to {dli} by the end of the week</p>
             </Col>
             <Col className={'mt-5'} xs={12} md={6}>
-                <img className={'mb-3'} src={stage.img} alt={stage.title} width={'100'}/>
+                <img className={'img-fluid mb-3 rounded-3 shadow-lg'} src={stage.img} alt={stage.title} style={{maxWidth: '75%'}}/>
                 <h1>{stage.title}</h1>
                 <p>{stage.content}</p>
             </Col>

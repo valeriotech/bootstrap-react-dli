@@ -8,18 +8,19 @@
 
 p {
   font-weight: 600;
-  color: #0078AA;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6, a {
   font-family: 'Lobster', cursive;
   font-weight: bold;
-  color: #3AB4F2;
+  color: #0573c4;
   margin: unset;
 }
 
 .bi {
- color: #F2DF3A;
+  color: #0573c4;
+  font-size: 1.1rem;
 }
 
 input {

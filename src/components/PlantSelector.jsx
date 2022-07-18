@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {FormControl, InputLabel, MenuItem, Select} from "@mui/material";
 import {Col} from "react-bootstrap";
-import {DLI} from "./DLI";
 
 export default function PlantSelector() {
 
@@ -26,7 +25,6 @@ export default function PlantSelector() {
                     color={'primary'}
                     variant={'standard'}
                 >
-                    // TODO: MAKE MAP FUNCTION
                     <MenuItem value={0}>Cannabis.PhotoPeriod</MenuItem>
                     <MenuItem value={1}>Cannabis.AutoFlower</MenuItem>
                     <MenuItem value={2}>Peppers.Cayenne</MenuItem>
