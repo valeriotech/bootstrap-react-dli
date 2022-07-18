@@ -9,17 +9,16 @@ export default function Defs(props) {
     const text = getText(props.tabKey)
 
     const getPictures = async () => {
-        const response = await fetch(`https://api.unsplash.com/search/photos/?client_id=Dc5DTMDhf1OPCZKm0hx-dfSuUKRj4321hu5jUkAU3No&query=sun&orientation=landscape`)
+        const response = await fetch(`https://api.unsplash.com/search/photos/?client_id=Dc5DTMDhf1OPCZKm0hx-dfSuUKRj4321hu5jUkAU3No&query=plants&orientation=landscape`)
         const data = await response.json()
         return data
     }
 
-
-
-
     useEffect(() => {
         getPictures().then(r=>{
-            const singleImage = r.results[0].urls.small
+            const item = r.results[Math.floor(Math.random()*r.results.length)];
+            const singleImage = item.urls.small
+
             setImage(singleImage)
             return r
         })

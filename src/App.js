@@ -8,7 +8,7 @@ import Defs from "./components/Defs";
 import TabbedPaper from './components/TabbedPaper'
 import PlantSelector from "./components/PlantSelector";
 import {Col} from "react-bootstrap";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 function App() {
 
